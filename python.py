@@ -1,6 +1,6 @@
-a = 4
-b = 5
+N=10
+s=0
+for i in range(N+1):
+    s += i
 
-s = a+b
-
-print(s)
+print("Sum, from 1 to 10 is : ", s) 
